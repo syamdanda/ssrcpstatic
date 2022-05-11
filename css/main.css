@@ -734,7 +734,7 @@ td, th {
 .overflow-hidden {
   overflow: hidden;
 }
-
+.container1
 .overlay {
   position: absolute;
   left: 0;
@@ -769,6 +769,7 @@ td, th {
 .row.no-margin {
   margin-left: 0;
   margin-right: 0;
+  width: 1275px;
 }
 
 .sample-text-area {
@@ -1910,6 +1911,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-top .header-top-right {
   text-align: right;
+  margin-left: -19%;
+  display: inline-block;
+  color: #eee;
+}
+
+.header-top-right1 {
+  text-align: right;
+  display: inline-block;
+  color: #eee;
+  margin-left: -60%;
+}
+
+.header1{
+  text-align: right;
+  text-decoration: dotted;
+ margin-right: 1%;
+ float: right;
+ padding: 0%;
+ text-align: right;
+ display: inline-block;
 }
 
 .header-top .header-top-right a {
@@ -1944,7 +1965,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-menu {
-  padding-top: 20px;
+  padding-top: 0px;
+  padding-right: 0px;
+  margin-right: 92px;
+  margin-left: ‒23;
+  margin-left: 168px
 }
 
 #header {
@@ -1978,7 +2003,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
 }
-
+#logo1{
+  width: 120px;
+padding-left: 0px;
+padding-top: 0px;
+padding-right: 0px;
+margin-right: 0px;
+margin-left: 0px;
+}
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #000;
   padding-left: 10px;
@@ -2007,15 +2039,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: right;
 }
 
 .nav-menu ul {
-  position: absolute;
+  position: relative;
   display: none;
   top: 100%;
   left: 0;
   z-index: 99;
   background: rgba(255, 255, 255, 0.9);
+  text-align: right;
 }
 
 .nav-menu li {
@@ -2034,12 +2068,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu ul ul {
   top: 0;
-  left: 100%;
+  left: 0%;
 }
 
 .nav-menu ul li {
   min-width: 180px;
-  text-align: left;
+  text-align: right;
 }
 
 /* Nav Menu Arrows */
@@ -2067,18 +2101,24 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 0 8px 0px 8px;
+  padding: 10px 0px 10px 80px;
   text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
   color: #222;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 300;
+  font-size: 15px;
   text-transform: uppercase;
   outline: none;
+  text-align: right;
+  float: inline-end;
+  flex-wrap:wrap;
+
+
 }
 
 .nav-menu > li {
   margin-left: 10px;
+  display: block;
 }
 
 .nav-menu ul {
